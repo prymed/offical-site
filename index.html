@@ -30,23 +30,12 @@
   <!-- Your picture -->
   <img src="mypic.jpg" alt="My cool picture" width="300">
 
-  <!-- Link that goes to the second site -->
-  <a href="#" id="delayedLink">click me for something cool</a>
+  <!-- Link to normal Rick Roll -->
+  <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">pt2 to my website</a>
+
+  <!-- Link to your second GitHub Pages site -->
+  <a href="https://prymed.github.io/offical-web-2/" target="_blank">click me for something cool</a>
 
   <p>i think this will add new text to my web</p>
-
-  <script>
-    document.getElementById('delayedLink').addEventListener('click', function(event) {
-      event.preventDefault(); // prevent default link behavior
-
-      // Go to the second site immediately
-      window.location.href = "https://prymed.github.io/offical-web-2/";
-
-      // After 5 seconds, redirect to the Rick Roll video
-      setTimeout(function() {
-        window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
-      }, 5000); // 5000ms = 5 seconds
-    });
-  </script>
 </body>
 </html>
